@@ -95,6 +95,8 @@ header .nav {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.pad-10 {padding-top: 10%;}
+
 .arrow {
     font-size: 230%;
 }
@@ -104,6 +106,8 @@ header .nav {
 display: flex;}
 
 .divisor {max-width: none;}
+
+
 /*----------------
     TYPOGRAPHY
 ------------------*/
@@ -125,6 +129,12 @@ h1 {font-family: "Open Sans", sans-serif;
         font-style:normal;
         padding-left: 15%;
     padding-bottom: 5%;
+    }
+    h3 {font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight:900;
+        font-style:normal;
+
     }
 
 .gros{
@@ -171,6 +181,7 @@ font-family: inherit;
     border:1px blacks;
     padding: 6px 12px;
     cursor: pointer;
+    
 }
 
 /*----------------
@@ -225,6 +236,9 @@ align-self: center;
     max-height: 100%;
    }
 
+.img-divisor { max-width: 50%;
+    max-height: 50%;}
+
 
 /*----------------
     MAIN
@@ -267,4 +281,14 @@ th, td {  padding: 10px;
 
 /*----------------
     FOOTER
-------------------*
+------------------*/
+
+
+
+.container-divisor {
+            max-width: 1200px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+       
