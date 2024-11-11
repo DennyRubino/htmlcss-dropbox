@@ -105,7 +105,13 @@ header .nav {
 .space{justify-content: space-between;
 display: flex;}
 
-.divisor {max-width: none;}
+.divisor {padding-bottom: 30%;}
+
+.align {
+    padding-top: 20%;
+    padding-left: 20%;
+
+}
 
 
 /*----------------
@@ -134,9 +140,15 @@ h1 {font-family: "Open Sans", sans-serif;
         font-size: 20px;
         font-weight:900;
         font-style:normal;
-
     }
-
+    h4 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        font-style: normal;
+        padding-left: 16%;
+        padding-right: 45%;
+    }
 .gros{
     font-family: "Open Sans", sans-serif;
         font-style:normal;
@@ -150,11 +162,13 @@ h1 {font-family: "Open Sans", sans-serif;
 td > hr {width: 20%;}
 
 .buy { color: #0061FE;
-    text-decoration: underline;}
+    text-decoration: underline;
+cursor: pointer;}
+
+.
 /*----------------
     BACKGROUND
 ------------------*/
-.hero {background-color: #B4D0E6;}
 /*----------------
     BUTTONS
 ------------------*/
@@ -290,5 +304,7 @@ th, td {  padding: 10px;
             text-align: center;
             display: grid;
             grid-template-columns: auto auto auto;
+            padding-left: 20%;
+            padding-top: 10%;
         }
        
