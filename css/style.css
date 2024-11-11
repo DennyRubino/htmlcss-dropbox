@@ -115,7 +115,7 @@ padding-right: 10%;}
     padding-left: 20%;
 
 }
-
+.pad {padding: 5%;}
 
 /*----------------
     TYPOGRAPHY
@@ -152,6 +152,10 @@ h1 {font-family: "Open Sans", sans-serif;
         padding-left: 16%;
         padding-right: 45%;
     }
+    h6 { font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        font-style: normal;}
 .gros{
     font-family: "Open Sans", sans-serif;
         font-style:normal;
@@ -161,8 +165,7 @@ h1 {font-family: "Open Sans", sans-serif;
     width: 100%;
     height: 0px;
     margin: 8% auto;}
-
-td > hr {width: 20%;}
+ 
 
 .buy { color: #0061FE;
     text-decoration: underline;
@@ -306,14 +309,28 @@ th, td {  padding: 10px;
             padding-left: 20%;
             padding-top: 10%;
         }
+
+        .container {
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        .plan {
+            border: 1px solid #E7E7E9;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            
+        }
 /*----------------
     FOOTER
 ------------------*/
-
-
+.footer-divisor {width: 20%;}
 
 .container-footer {
-    max-width: 1200px;
+    max-width: auto;
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
