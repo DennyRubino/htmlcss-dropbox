@@ -165,7 +165,9 @@ td > hr {width: 20%;}
     text-decoration: underline;
 cursor: pointer;}
 
-.
+.selector {
+    padding-right: 54%;
+    padding-top: 8%;}
 /*----------------
     BACKGROUND
 ------------------*/
